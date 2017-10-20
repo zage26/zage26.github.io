@@ -1,0 +1,63 @@
+/*GENERAL*/
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+/*PARALLAX*/
+.cake {
+    background-image: url("images/cake.jpg");
+}
+
+.brownie {
+    background-image: url("images/brownie.jpg");
+}
+
+.cookies {
+    background-image: url("images/cookies.jpg");
+}
+
+.parallax {
+    min-height: 500px; 
+    opacity: 0.8;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*LABELING */
+.title {
+	position: relative;
+	top: 190px;
+	margin: auto;
+	width: 250px;
+	height: 100px;
+	color: white;
+	text-align: center;
+	background-color: rgba(160, 82, 45, 0.6);
+}
+
+.text {
+	position: relative;
+	top: 15px;
+	font-size: 40px;
+	font-family: 'Over the Rainbow', cursive;
+}
+
+/*TEXT*/
+.text-div {
+	text-align: center;
+	top: 15px;
+	margin: 10% 35%;
+	font-family: 'Maitree', serif;
+}
